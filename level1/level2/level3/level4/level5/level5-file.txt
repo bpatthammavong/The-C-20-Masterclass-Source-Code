@@ -1,0 +1,36 @@
+Previous | Next | Table of Contents | Index | Program List | Copyright
+1.4 The Software Development Method
+Students in many subject areas receive instruction in specific problem-solving methods. For example, business students are encouraged to follow a systems approach to problem solving; engineering and science students are encouraged to follow the engineering and scientific method. Although these problem-solving methods are associated with very different fields of study, their essential ingredients are quite similar. We will describe one such method below.
+
+This book is concerned with a particular kind of problem solving, namely, developing solutions that use computers to get results. We mentioned earlier that a computer cannot think; therefore, in order to get it to do any useful work, we must provide a computer with a program that is a list of instructions. Programming a computer is a lot more involved than simply writing a list of instructions. Problem solving is an important component of programming. Before we can write a program to solve a particular problem, we must consider carefully all aspects of the problem and then organize its solution.
+
+A software developer is someone who is involved with the design and implementation of reliable software systems. This title emphasizes the fact that programmers, like engineers, are concerned with developing practical, reliable solutions to problems. However, the product produced by a software developer is a software system, rather than a physical system.
+
+To highlight the analogy with engineering, some people refer to this method as software engineering and to software developers as software engineers. To emphasize the fact that one need not be an actual engineer or even an engineering student to develop good software, we use instead the terms software development and software developer in this book.
+
+Steps in the Software Development Method
+Problem specification: State the problem and gain a clear understanding of what is required for its solution. This sounds easy, but it can be the most critical part of problem solving. A good problem solver must be able to recognize and define the problem precisely. If the problem is not totally defined, you must study the problem carefully, eliminating the aspects that are unimportant and zeroing in on the root problem.
+Analysis: Identify problem inputs, desired outputs, and any additional requirements of or constraints on the solution. Identify what information is supplied as problem data and what results should be computed and displayed. Also, determine the required form and units in which the results should be displayed (for example, as a table with specific column headings).
+Design: Develop a list of steps (called an algorithm) to solve the problem and verify that the algorithm solves the problem as intended. Writing the algorithm is often the most difficult part of the problem solving process. Once you have the algorithm, you should verify that it is correct before proceeding further.
+Test plan: Develop a strategy for proving to yourself and to others that your algorithm will get the proper results. It is highly advisable to write a plan for testing the program you will write, even before you have written it. Which test cases will you choose? What are the special cases that must be tested? Pretend you are a potential purchaser of the program, and ask "which tests would I require to be convinced that this program behaves as advertised?"
+Implementation or coding: Implement the algorithm as a program. This requires knowledge of a particular programming language. Each algorithm step must be converted into a statement in that programming language.
+Testing: Run the completed program, testing it with the test cases specified in the test plan.
+If the first three steps in the list above are not done properly, you will either solve the wrong problem or produce an awkward, inefficient solution. To perform these steps successfully, it is most important that you read the problem statement carefully before attempting to solve it. You may need to read each problem statement two or three times. The first time, you should get a general idea of what is being asked. The second time, you should try to answer the questions:
+
+What information should the solution provide?
+What data do I have to work with?
+The answer to the first question will tell you the desired results, or the problem outputs. The answer to the second question will tell you the data provided, or the problem inputs. It may be helpful to underline the phrases in the problem statement that identify the inputs and outputs.
+
+As indicated above, the design phase is often the most difficult part of the problem-solving process. When you write an algorithm, you should first list the major steps of the problem that need to be solved (called subproblems). Don't try to list each and every step imaginable; instead, concentrate on the overall strategy. Once you have the list of subproblems, you can attack each one individually, adding detail or refining the algorithm. The process of solving a problem by breaking it up into its smaller subproblems, called divide and conquer, is a basic strategy for all kinds of problem-solving activities.
+
+If you do not develop a proper test plan, you risk just running the program with casually chosen inputs, thereby missing important test cases which, should they arise after the program is completed and delivered, may cause the program to fail unexpectedly. A program's behavior must be, to the greatest extent possible, predictable, even if the user makes errors in operating it.
+
+The principle of predictable performance requires that a test plan should include cases of "bad" as well as "good" input. An especially tragic, and true, story of unpredictable software is a certain cancer-radiation machine which, in treating several patients, responded to some unexpected operator keystrokes by giving the patients lethally high radiation dosages, killing them instead of treating their cancer.
+
+The software development method can be used with any actual programming language; indeed, only the implementation phase really requires detailed knowledge of a language or a particular computer. Even the testing phase is, in industry, often carried out by individuals who do not know programming but specialize in developing good tests of programs.
+
+In this book, you will see numerous examples of the software development method, with each step spelled out in some detail.
+
+
+Previous | Next | Table of Contents | Index | Program List | Copyright
+Copyright © 1996 by Addison-Wesley Publishing Company, Inc.

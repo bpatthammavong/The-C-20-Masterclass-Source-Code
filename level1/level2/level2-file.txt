@@ -1,0 +1,79 @@
+Previous | Next | Table of Contents | Index | Program List | Copyright
+1.1 Electronic Computers Then and Now
+It is difficult to live in today's world without having some contact with computers. Computers are used to provide instructional material in schools, to print transcripts, to send out bills, to reserve airline and concert tickets, to play games, and to help authors write books. Several kinds of computers cooperate in dispensing cash from an automatic teller machine; "embedded" or "hidden" computers help control the ignitions, fuel systems, and transmissions of modern automobiles; at the supermarket, a computer device reads the bar codes on the packages you buy, to total your purchase and help manage the store's inventory. Even a microwave oven has a special-purpose computer built into it.
+
+However, it wasn't always this way. Computers as we know them did not exist at all before the late 1930s, and as recently as the early 1970s, computers were fairly mysterious devices that only a small percentage of our population knew much about. Computer "know-how" turned around when advances in solid-state electronics led to cuts in the size and cost of electronic computers. Today, a personal computer (see Figure 1.1) that costs less than $2000 and fits easily on a desk or in a briefcase or, indeed, in the palm of one's hand has as much computational power as one that 15 years ago cost more than $100,000 and filled a 9-foot by 12-foot room. This price reduction is even more remarkable when we consider the effects of inflation over the last decade. It is said that if the development of automobiles had progressed at the same rate as that of computers, a luxurious car would cost only a few dollars and would be as fast as the Space Shuttle.
+
+
+Figure 1.1
+Figure 1.1 (a) Notebook Computer; (b) Palmtop Computer; (c) Workstation
+
+If we take the literal definition for computer as a device for counting or computing, the abacus might be considered the first computer. However, the first electronic digital computer was designed in the late 1930s by Dr. John Atanasoff at the University of Iowa. Atanasoff designed his computer to perform mathematical computations for graduate students.
+
+The first large-scale, general-purpose electronic digital computer, called the ENIAC, was built in 1946 at the University of Pennsylvania with funding supplied by the U.S. Army. The ENIAC was used for computing ballistics tables, for weather prediction, and for atomic energy calculations. The ENIAC weighed 30 tons and occupied a space 30 by 50 feet (see Figure 1.2).
+
+
+Figure 1.2
+Figure 1.2 The ENIAC Computer (photo courtesy of Unisys Corporation)
+
+A computer is basically a device for performing very simple computations and decisions, such as determining the alphabetical ordering of two words or summing two numbers, at incredible speeds (millions of these simple operations per second) and with great accuracy. In order to accomplish anything useful, a computer must be programmed, or given a sequence of explicit instructions (the program) indicating which simple operations to carry out, in which order, and how many times.
+
+To program the ENIAC, hundreds of wires and thousands of switches had to be connected in a certain way. In 1946, Dr. John von Neumann of Princeton University proposed the concept of a stored program computer in which the instructions of a program would be stored in computer memory rather than be set by wires and switches. Because the contents of computer memory can be changed easily, it would not be nearly as difficult to reprogram this computer to perform different tasks as it was to reprogram the ENIAC. Von Neumann's design is the basis of the digital computer as we know it today.
+
+Brief History of Computers
+Table1.1 lists some of the important milestones along the path from the abacus tomodern-day electronic computers. We often use the term first generation to refer to electronic computers that used vacuum tubes (1939-1958). The second generation began in 1958 with the changeover to transistors. The third generation began in 1964 with the introduction of integrated circuits. The fourth generation began in 1975 with the advent of large-scale integration. Since then, change has come so rapidly that we don't seem to be counting generations anymore. However, the late 1970s saw the beginning of the "personal computer revolution" with computers that individuals and families could afford being sold at retail in computer stores.
+
+
+Table 1.1
+Milestones in the Development of Computers and Programming Languages
+
+DATE	EVENT
+2000 B.C.	The abacus is first used for computations.
+1642 A.D.	Blaise Pascal, in France, creates a mechanical adding machine for tax computations. It is unreliable.
+1670	In Germany, Gottfried von Leibniz creates a more reliable adding machine, which adds, subtracts, multiplies, divides, and calculates square roots.
+1842	Charles Babbage, in England, designs an analytical engine to perform general calculations automatically. Ada Byron, daughter of the poet Lord Byron and known later as Lady Lovelace, assists him in programming this machine.
+1890	Herman Hollerith designs a system to record and tabulate data for the decennial U.S. census. The information is stored as holes on cards which are interpreted by machines with electrical sensors. Hollerith starts a company that will eventually become IBM.
+1939	John Atanasoff at the University of Iowa, with graduate student Clifford Berry, designs and builds the first digital computer. His project is funded by a grant for $650.
+1946	J. Presper Eckert and John Mauchly design and build the Electronic Numerical Integrator and Calculator (ENIAC) at the University of Pennsylvania. It uses 18,000 vacuum tubes and costs $500,000 to build.
+1946	John von Neumann, at Princeton, proposes that a program be stored in a computer in the same form that data are stored. His proposal, called "von Neumann architecture," is still the basis of most modern computers.
+1951	Eckert and Mauchly build the first general-purpose commercial computer, the UNIVAC.
+1957	John Backus and his team at IBM complete the first FORTRAN compiler. This is a milestone in the development of programming languages.
+1958	The first computer to use the transistor as a switching device, the IBM 7090, is introduced.
+1958	Seymour Cray builds the first fully transistorized computer, the CDC 1604, for Control Data Corporation.
+1964	The first computer using integrated circuits, the IBM 360, is announced.
+1971	The Pascal programming language is introduced by Niklaus Wirth of the Technical University of Zurich.
+1975	The first microcomputer, the Altair, is introduced.
+1975	The first supercomputer, the Cray-1, is announced.
+1975	The U.S. Department of Defense High-Order Language Working Group (HOLWG) is created to find a solution to the DoD's "software crisis." The group's efforts culminate in the adoption of Ada.
+1976	Digital Equipment Corporation introduces its popular minicomputer, the VAX 11/780.
+1977	Steve Wozniak and Steve Jobs begin producing Apple computers in a garage.
+1977	Radio Shack announces the TRS-80, one of the first fully packaged microcomputers to be sold in retail stores, in time for the Christmas season.
+1978	Dan Bricklin and Bob Frankston develop the first electronic spreadsheet, called VisiCalc, for the Apple computer.
+1979	After a competition lasting several years, the preliminary specification of Ada is published by the U.S. government. Ada's design team at CII-Honeywell-Bull is headed by Jean Ichbiah and includes about a dozen American and European language experts.
+1981	IBM introduces the IBM Personal Computer. The business world now acknowledges that microcomputers are "real."
+1982	Sun Microsystems introduces its first workstation, the Sun 100.
+1983	The Ada language standard is adopted by the government and by the American National Standards Institute (ANSI).
+1984	Apple introduces the Macintosh, the first widely available computer with a "graphical user interface" using icons, windows, and a mouse device.
+1987	Ada is adopted as an international standard by the International Standards Organization (ISO).
+1988	The Ada 9X project is begun, to consider extensions to the Ada language. Christine Anderson oversees the project for the U.S. government; the design team is headed by Tucker Taft of Intermetrics.
+1990	Over 500 different Ada compilers have been validated. Compilers--all handling the same Ada language--are readily available for all categories of computers from laptops to supercomputers.
+1992	The United States, Canada, and dozens of other countries around the world, are redesigning their air traffic control systems using state-of-the-art computers running software written mostly in Ada.
+1994	The Internet, originally a university and defense research network started in the 1970s by the U.S. government, has hundreds of thousands of computers and millions of government, academic, commercial, and individual users and becomes a subject for widespread discussion in the public press. The World Wide Web, nonexistent in 1990, experiences explosive growth and popularity.
+1994	GNAT, the GNU/NYU Ada Translator, is released as the first compiler to implement the evolving Ada 9X design. GNAT is distributed free to many thousands of users over the Internet and on CD-ROMs.
+1995	The Boeing 777, the most computer-dependent airliner to date, makes its first commercial flights. Its several million lines of software are written mostly in Ada.
+1995	Ada 9X becomes Ada 95, when ISO and ANSI adopt the extended language as a U.S. and international standard. The first validated Ada 95 compilers appear.
+
+Categories of Computers
+Modern-day computers are classified according to their size and performance. The three major categories of computers are microcomputers, minicomputers, and mainframes.
+
+Microcomputers such as the IBM Personal Computer or the Apple Macintosh are also called personal computers because they are usually used by one person at a time and are small enough to fit on or next to a desk. The largest microcomputers, called workstations,are commonly used by engineers to produce engineering drawings and to assist in the design and development of new products. The smallest general-purpose microcomputers are often called laptops or notebooks because they can fit into a briefcase and are often used on one's lap in an airplane.
+
+Often the term embedded computer is used to refer to a computer, usually a microcomputer, built into a larger system and not operated directly by a human user. Embedded computers are found in automobiles, teller machines, cash registers, and so on.
+
+Businesses, research laboratories, and university computing centers often use larger computers called minicomputers and mainframes. These are most noticeable in that they can be used simultaneously by many individuals, all working on separate problems. Supercomputers, the most powerful mainframes, can perform in seconds computations that might take hours to solve on a minicomputer, days on a microcomputer, or years with a hand calculator.
+
+This book was written using an Apple Macintosh microcomputer; the programs were tested on a Macintosh, an IBM-compatible personal computer, and a Sun workstation.
+
+
+Previous | Next | Table of Contents | Index | Program List | Copyright
+Copyright © 1996 by Addison-Wesley Publishing Company, Inc.

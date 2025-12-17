@@ -1,0 +1,10 @@
+1.3 Problem Solving and Programming
+Computer problem-solving ability is a combination of art and science, the transformation of a description--in English or another human language--of a problem into a form that permits a mechanical solution and the implementation of that solution on a computer. A relatively straightforward example of this process is transforming a word problem into a set of algebraic equations that can then be solved for one or more unknowns.
+
+Most problems are not so easily solved. The problem-solving process is more difficult because problem descriptions are often incomplete, imprecise, or ambiguous. The successful problem solver needs to learn the following skills:
+
+Ask the right questions in order to clarify the problem and obtain any information missing from the problem statement (this process is called problem specification).
+Analyze the problem, attempting to extract its essential features and identify what is provided (the problem inputs) and what is required (the problem outputs).
+Determine whether there are any constraints or simplifying assumptions that can be applied to facilitate the problem solution. We often cannot solve the most general case of a problem but must make some realistic assumptions that limit or constrain the problem so that it can be solved.
+Apply knowledge of the problem environment and the formulas or equations that characterize it, to develop a series of steps whose successful completion will lead to the problem solution, eventually implementing or coding these steps in a form that can be submitted to a computer.
+Once the solution is obtained, verify its accuracy by developing and carrying out a plan for testing it.

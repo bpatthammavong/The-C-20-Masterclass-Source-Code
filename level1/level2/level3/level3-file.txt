@@ -1,0 +1,93 @@
+Previous | Next | Table of Contents | Index | Program List | Copyright
+1.2 Components of a Computer
+Despite significant variations in cost, size, and capabilities, digital computers have been remarkably similar throughout their 50-year history. They all consist of hardware, the physical equipment, and software, the programs loaded into the hardware to perform computational tasks.
+
+Most computers consist of the following hardware components:
+
+main memory
+secondary memory, which includes storage devices such as hard disks, floppy disks, and CD-ROMs
+the central processor unit
+input devices, such as scanners, keyboards, and mouses
+output devices, such as monitors and printers
+Figure 1.3 shows how these components interact, with arrows showing the direction of information flow.
+
+Figure 1.3
+Components of a Computer
+
+Figure 1.3
+
+All information that is to be processed by a computer must first be entered into the computer memory via an input device. The information in memory is manipulated by the central processor unit (CPU), and the results of this manipulation are stored in memory. Information in memory can be displayed through an output device. A secondary storage device is often used for storing large quantities of information in a semipermanent form.
+
+Main Memory
+Main memory--often called random-access memory, or RAM--is used for storing information and programs. All types of information--numbers, names, lists, and even pictures--can be represented and stored in main memory.
+
+Imagine the memory of a computer as an ordered sequence of storage locations called memory cells. To be able to store and retrieve (access) information, there must be some way to identify the individual memory cells. To accomplish this, each memory cell has associated with it a unique address, which indicates its relative position in memory. Figure 1.4 shows a computer memory consisting of 1000 memory cells with addresses 0 through 999. Today's personal computers often have several million individual cells. Main memory--RAM--is conventionally measured in megabytes, where one megabyte is approximately one million cells.
+
+
+Figure 1.4
+A Computer Memory with 1000 Cells
+
+Figure 1.4
+
+The information stored in a memory cell is called the contents of a memory cell. Every memory cell always contains some information, although we may have no idea what that information is. Whenever new information is placed in a memory cell, any information already there is destroyed and can no longer be retrieved. In Figure 1.4, the contents of memory cell 3 is the number -26, and the contents of memory cell 4 is the letter H.
+
+Although not shown in the figure, a memory cell can also contain a program instruction. The ability to store programs as well as data in the same physical memory is called the stored program concept, first developed by John von Neumann. A program's instructions must be loaded into main memory before that program can be executed. The great benefit of a stored program computer is that its operation can be changed by simply loading a different program into memory.
+
+A memory cell as shown in Figure 1.4 is actually a grouping of smaller units called bytes. A byte is the amount of storage required to store a single character. The number of bytes in a memory cell depends on the kind of information stored in that cell and varies from computer to computer. A byte is an aggregate of an even smaller unit of storage called a bit; a bit is a binary digit (0 or 1). In most computers there are eight bits to a byte.
+
+Each value stored in memory is represented by a particular pattern of 0s and 1s. To store a value, the computer sets each bit of a selected memory cell to 0 or 1, thereby destroying what was previously in that bit. Each value is represented by a particular pattern of 0s and 1s. To retrieve a value from a memory cell, the computer copies the pattern of 0s and 1s stored in that cell to another area where the bit pattern can be processed. The copy operation does not destroy the bit pattern currently in the memory cell. The process described above is the same regardless of the kind of information--character, number, or program instruction--stored in a memory cell.
+
+Secondary Memory
+Most computers have a limited amount of main memory. Consequently, secondary memory provides additional storage capability on most computer systems. For example, a disk drive, which stores data on a disk, is a common secondary storage device for today's computers.
+There are two kinds of disks: hard disks and floppy disks (sometimes called diskettes); a computer may have one or more drives of each kind. A hard disk cannot normally be removed from its drive, so the storage area on a hard disk is often shared by all users of a computer. On the other hand, each computer user may have his or her own floppy disks that can be inserted in a disk drive as needed. Hard disks can store much more data than floppy disks and operate much more quickly, but they are also much more expensive. Floppy disks are called "floppy" because the actual recording surface is a flexible piece of magnetically coated plastic.
+
+The currently popular 3.25-inch-diameter floppy disks are encased in a hard plastic outer shell to protect them from damage. The older 5.25-inch-diameter disks, rapidly disappearing from the scene, were encased in a (usually) black sealed envelope of heavy paper or flexible plastic. One inexperienced user once called the university's computer support organization to report that files were repeatedly disappearing from the floppy disk. On arriving at the user's office, the support technician immediately noticed that the user was keeping the disk from getting lost by sticking it to a metal file cabinet with magnets. Of course, the magnets erased the data on the disk. This user was not unintelligent, merely inexperienced, and had never been told not to use magnets near a floppy disk!
+
+Many types of information can be stored on disk, for example, a term paper, a computer program, payroll data from a business, or data from earthquake seismic readings taken by a research center. Each of these collections of information is called a file. You must give a file a unique name when you first store it on a disk so that you can retrieve the file at a later date.
+
+Comparison of Main and Secondary Memory
+Main memory is much faster and more expensive than secondary memory. For example, a typical 3.5-inch floppy disk holds approximately one megabyte (1 million bytes) of data and costs about a dollar. The equivalent amount of main memory costs, at this writing, about $50. A typical personal-computer hard disk can store several hundred megabytes and costs a dollar or less per megabyte.
+
+An increasingly popular form of memory is called CD-ROM (Compact Disk Read-Only Memory). CD-ROMs are plastic disks similar to audio CDs. CD-ROMs are very inexpensive: a CD-ROM containing hundreds of megabytes of programs or other information may cost as little as a few dollars. The disadvantage of CD-ROMs is that your computer cannot store new information on them. This is why they are called "read-only."
+
+The CPU normally transfers data between secondary memory and main memory; it manipulates the data in main memory only. Data in main memory are volatile: They disappear when you reset or switch off the computer. Data in secondary memory are nonvolatile: They do not disappear when the computer is switched off and are magnetically "erased" only by a program operating under an explicit command from the user. You can remove a floppy disk from the computer and set it aside for later use; the data will will remain on the disk until explicitly erased.
+
+Central Processor Unit
+The CPU has two roles: coordinating all computer operations, and performing arithmetic and logical operations on data. The CPU follows the instructions contained in a program which has been loaded into memory. These instructions specify which operations should be carried out and in what order; the control unit then transmits coordinating control signals to the computer components. For example, if the instruction requires reading a data item, the CPU sends the necessary control signals to the input device.
+
+To process a program stored in memory, the CPU retrieves each instruction in sequence (fetches the instruction), interprets (decodes) the instruction to determine what should be done, and then retrieves any data necessary to carry out that instruction. Next, the CPU performs the actual manipulation of the data it retrieves from memory (executes the instruction). Finally, the CPU can store the results of these manipulations back in memory for later use.
+
+The CPU can perform such arithmetic operations as addition, subtraction, multiplication, and division. It can also compare the contents of two memory cells, for example, to determine which is the larger value or to determine whether the two values are equal. Based on the result of the comparison, the CPU can make a simple decision about which instruction to execute next. The ability to make simple decisions is the basis of a computer's real power.
+
+A typical modern CPU can perform each operation in one millionth of a second or less.
+
+Input and Output Devices
+We use input/output (I/O) devices to communicate with the computer. Specifically, they allow us to enter data for a computation into memory and to observe the results of the computation.
+
+You will be using a keyboard (see Figure 1.5) as an input device and a monitor or display screen as an output device. When you press a key on the keyboard, a binary-coded version of that character is sent to main memory and is also displayed (echoed) on the monitor at the position of the cursor, a moving place marker. A computer keyboard resembles a typewriter keyboard except that it has some extra keys for performing special functions. On the keyboard shown in Figure 1.5, the row of keys at the top (labeled F1 through F12) are function keys. The function performed by each of these keys depends on the program that is executing.
+
+
+Figure 1.5
+A Computer Keyboard
+
+Figure 1.5
+
+Another common input device is a mouse. This is a device you hold in your hand, moving it around a pad on your desk. Several different mechanisms are used for mice. In one common one, as you move the mouse, a rubber ball attached to its bottom rotates, causing small rollers inside the mouse to send a signal to the computer. The computer then moves the mouse cursor (normally a small box or arrow) around the screen to follow your hand motion. You select an operation by moving the mouse cursor to a particular word or picture, then pressing (clicking) a button on the mouse.
+
+Humorous stories abound regarding new users' inexperience with using a mouse. In one case, a user picked up the mouse, pointed it at the computer screen, and clicked the button. This user, reasoning from experience with TV remote-control devices, was quite surprised when the computer did not respond. Another story tells of a user who placed the mouse on the floor, then stepped on the button without moving the mouse. This user was evidently thinking of the mouse as similar to the foot pedal that comes with a sewing machine. These stories, funny as they are, are worth remembering as further examples of the observation that "inexperience does not equate to stupidity."
+
+A monitor is similar to a television screen. It provides a temporary display of the information that appears on the screen. If you want paper or hard-copy output, you must send your computational results to an output device called a printer.
+
+Computer Networks
+Often several individual computers are interconnected as a computer network. The network usually comprises a number of personal computers or workstations, one or more central file servers, each with a very large hard disk, and perhaps a central, high-quality print server. Many computer laboratories arrange their computers in a network.
+You have probably heard of the Internet. This is a huge network of networks, interconnecting most university computers all over the world and many business, government, and individually owned computers as well. The Internet provides many very large file servers, as well as electronic bulletin boards and mail services. The Internet is a fascinating, ever-changing collection of resources, and if you have access to it, you will enjoy sending messages to friends in far-away places, looking up source material in libraries, and bringing interesting programs and other files into the computer you are using.
+
+The main risk in using the Internet is that you will become "hooked" on it, spending so much time "net surfing" that you neglect other work. Be careful!
+
+Exercises for Section 1.2
+Self-Check
+What are the contents of memory cells 0 and 999 in Figure 1.4? What memory cells contain the letter X and the fraction 0.005?
+Explain the purpose of the memory, central processor, and disk drive and disk. What input and output devices will be used with your computer?
+
+Previous | Next | Table of Contents | Index | Program List | Copyright
+Copyright © 1996 by Addison-Wesley Publishing Company, Inc.
