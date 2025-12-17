@@ -76,3 +76,8 @@ Git doesn't create files directly. You use OS commands or text editors to create
 You must use git add to stage the new file before committing.
 Commit messages are important. They should briefly describe what the commit does.
 git push is needed to share your changes with others.
+
+
+********************************************************************
+
+
