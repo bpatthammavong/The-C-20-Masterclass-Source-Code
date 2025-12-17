@@ -1,6 +1,0 @@
-
-Just testing to create new txt file
-Ada 95 Problem Solving and Program Design
-M. B. Feldman and E. B. Koffman
-
-the second update for testing
