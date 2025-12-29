@@ -77,3 +77,6 @@ This book was written using an Apple Macintosh microcomputer; the programs were 
 
 Previous | Next | Table of Contents | Index | Program List | Copyright
 Copyright © 1996 by Addison-Wesley Publishing Company, Inc.
+
+
+Update for simple change
