@@ -77,3 +77,6 @@ Makefile
 .DS_Store
 .AppleDouble
 .LSOverride
+
+# testing for learning git 
+testing-file.txt
