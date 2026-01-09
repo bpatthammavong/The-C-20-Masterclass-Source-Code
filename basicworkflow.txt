@@ -1,5 +1,8 @@
 *******************************************************
-Basic Commands
+##################
+**Basic Commands**
+##################
+
 Completely Fresh
 Command Listing
 pwd
@@ -26,8 +29,10 @@ pwd
 ls
 rm -rf fresh-projects
 **********************************************************
+###################
+**Existing Source**
+###################
 
-Existing Source
 Command Listing
 pwd
 cd projects
@@ -52,8 +57,10 @@ pwd
 ls
 rm -rf web-project
 ****************************************************************
+##################
+**Remote (GitHub)**
+##################
 
-Remote (GitHub)
 Command Listing
 pwd
 cd projects
@@ -68,8 +75,10 @@ cd ..
 clear
 git status
 **********************************************************************
+#####################################
+**Basic Git Workflow / First Commit**
+#####################################
 
-Basic Git Workflow / First Commit
 Command Listing
 pwd
 cd projects
@@ -88,7 +97,9 @@ git pull origin master
 clear
 git push origin master
 ******************************************************************
-
+############################
+**Adjusting the Git Config**
+############################
 Adjusting the Git Config
 Resetting to author's name from demo in the Git Quick Start.
 Command Listing
@@ -100,8 +111,10 @@ email = jason.git.training
 [core]
 editor = mate -w
 *******************************************************************
+##################################
+**Tracked Files / Express Commit**
+##################################
 
-Tracked Files / Express Commit
 Command Listing
 pwd
 cd projects
@@ -119,8 +132,10 @@ git add newfile.txt
 git status
 git ls-files
 *******************************************************************
+##################
+**Editing Files**
+##################
 
-Editing Files
 Command Listing
 pwd
 cd projects/starter-web
@@ -139,8 +154,10 @@ git status
 git commit -m "More ipsum for hipsters"
 git status
 ****************************************************************
+##################
+**Recursive Add**
+##################
 
-Recursive Add
 Command Listing
 pwd
 cd projects/starter-web
@@ -166,8 +183,10 @@ git add .
 git status
 git commit
 ***********************************************************************
+##################
+**Backing Out Changes**
+##################
 
-Backing Out Changes
 Command Listing
 pwd
 cd projects/starter-web
@@ -190,8 +209,10 @@ git checkout -- level1-file.txt
 git status
 mate level1-file.txt
 ***********************************************************************
+##########
+**Rename**
+##########
 
-Rename
 Command Listing
 pwd
 cd projects/starter-web
@@ -255,8 +276,10 @@ git add -u
 git status
 git commit
 *****************************************************
+##################
+**Deleting Files**
+##################
 
-Deleting Files
 Command Listing
 pwd
 cd projects/starter-web
@@ -307,8 +330,10 @@ git status
 git commit -m "deleting level1 and all children"
 git status
 ************************************************************
+###########
+**History**
+###########
 
-History
 Command Listing
 pwd
 git help log
@@ -386,10 +411,10 @@ git status
 git commit -am "Excluding log file directory"
 git status
 *******************************************************************
+######################
+**Git Basics Cleanup**
+######################
 
-######################
-##Git Basics Cleanup##
-######################
 Command Listing
 pwd
 cd projects/starter-web
