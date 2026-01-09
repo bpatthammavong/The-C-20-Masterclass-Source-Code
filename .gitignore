@@ -80,3 +80,4 @@ Makefile
 
 # testing for learning git 
 testing-file.txt
+log/
